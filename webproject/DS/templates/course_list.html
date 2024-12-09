@@ -1,0 +1,6 @@
+<h1>course list</h1>
+{% for course in courses %}
+    <p>{{ course.name }}- {{ course.id }} -{{ course.teacher }}</p>
+    <a href="{% url 'edit' pk=course.id %}">edit</a>
+    <a href="{% url 'delete' pk=course.id %}">delete</a>
+{% endfor %}

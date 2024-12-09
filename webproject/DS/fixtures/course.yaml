@@ -1,0 +1,12 @@
+- model : DS.Course
+  fields :
+    id : 1
+    name : Dstool
+    teacher : wichit
+
+- model : DS.Course
+  fields :
+    id : 2
+    name : Ds
+    teacher : tom
+

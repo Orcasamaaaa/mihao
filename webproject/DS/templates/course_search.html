@@ -1,0 +1,10 @@
+<h1>id serach</h1>
+<form method="get">
+    <input type="text" name="code">
+    <button type="submit"></button>
+    <ul>
+        {% for course in courses %}
+            <li>{{ course.id }} - {{ course.name }}</li>
+        {% endfor %}
+    </ul>
+</form>
